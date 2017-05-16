@@ -1,0 +1,11 @@
+{
+  "name": "ng-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yan-Zzzz/ng-demo.git",
+  "author": "Yan-Zzzz <yaoyan0313@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}
