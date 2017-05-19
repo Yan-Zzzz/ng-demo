@@ -1,0 +1,1 @@
+"use strict";angular.module("app").directive("appHeader",[function(){return{restrict:"A",replace:!0,templateUrl:"view/template/header/header.html"}}]);

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <ui-view></ui-view>
+
+    <script src="/vendor/js/angular.min.js"></script>
+    <script src="/vendor/js/angular-ui-router.min.js"></script>
+    <script src="/script/app.js"></script>
+    <script src="/script/config/router.js"></script>
+     <script src="/script/controller/mainCtrl.js"></script>
+    <script src="/view/template/header/header.js"></script>
+    <script>
+		document.getElementsByTagName('html')[0].style.fontSize = (window.screen.width/10)*62.5% +'px';      
+    </script>
+</body>
+
+</html>
